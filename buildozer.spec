@@ -18,7 +18,8 @@ source.include_exts = py,png,jpg,kv,atlas,wav,txt
 version = 0.1
 
 # (list) Application requirements
-requirements = python3,kivy
+requirements = python3,kivy,cython==0.29.33
+android.accept_sdk_license = True
 
 # (str) Supported orientation (landscape, portrait or all)
 orientation = portrait
